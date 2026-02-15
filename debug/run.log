@@ -1,0 +1,51 @@
+[23:51:29] 请先把俄罗斯方块 exe 窗口点到前台并聚焦。1秒后开始控制...
+[23:51:30] ✅ ROI loaded: {'x': 906, 'y': 178, 'w': 2470, 'h': 1691}
+[23:51:30] ckpt keys example (first 30): ['conv1.weight', 'conv1.bias', 'conv2.weight', 'conv2.bias', 'conv3.weight', 'conv3.bias', 'fc1.weight', 'fc1.bias', 'fc2.weight', 'fc2.bias']
+[23:51:30] ✅ loaded CNNPolicy | in_ch=8 c1=32 c2=64 c3=64
+[23:51:30] [probe] step=1 saved debug/exe_roi_step1.png
+[23:51:30] [alive] step=1 nonzero=0 fps~5.0
+[23:51:30] [probe] step=2 saved debug/exe_roi_step2.png
+[23:51:30] [alive] step=2 nonzero=1 fps~5.3
+[23:51:31] [probe] step=3 saved debug/exe_roi_step3.png
+[23:51:31] [alive] step=3 nonzero=1 fps~5.7
+[23:51:31] [probe] step=4 saved debug/exe_roi_step4.png
+[23:51:31] [alive] step=4 nonzero=1 fps~5.8
+[23:51:31] [probe] step=5 saved debug/exe_roi_step5.png
+[23:51:31] [alive] step=5 nonzero=1 fps~6.0
+[23:51:31] [probe] step=6 saved debug/exe_roi_step6.png
+[23:51:31] [alive] step=6 nonzero=1 fps~6.1
+[23:51:31] [probe] step=7 saved debug/exe_roi_step7.png
+[23:51:31] [alive] step=7 nonzero=1 fps~6.2
+[23:51:31] [probe] step=8 saved debug/exe_roi_step8.png
+[23:51:31] [alive] step=8 nonzero=1 fps~6.2
+[23:51:31] [probe] step=9 saved debug/exe_roi_step9.png
+[23:51:32] [alive] step=9 nonzero=1 fps~6.3
+[23:51:32] [probe] step=10 saved debug/exe_roi_step10.png
+[23:51:32] ⚠️ nonzero 太小（1），已保存 debug/bad_roi_step10.png
+[23:51:32] [alive] step=10 nonzero=1 fps~6.2
+[23:51:32] [alive] step=11 nonzero=1 fps~6.3
+[23:51:32] [alive] step=12 nonzero=1 fps~6.5
+[23:51:32] [alive] step=13 nonzero=1 fps~6.7
+[23:51:32] [alive] step=14 nonzero=1 fps~6.8
+[23:51:32] [alive] step=15 nonzero=0 fps~7.0
+[23:51:32] [alive] step=16 nonzero=0 fps~7.1
+[23:51:32] [alive] step=17 nonzero=0 fps~7.3
+[23:51:33] [alive] step=18 nonzero=0 fps~7.4
+[23:51:33] [alive] step=19 nonzero=0 fps~7.4
+[23:51:33] ⚠️ nonzero 太小（0），已保存 debug/bad_roi_step20.png
+[23:51:33] [alive] step=20 nonzero=0 fps~7.3
+[23:51:33] [alive] step=21 nonzero=0 fps~7.4
+[23:51:33] [alive] step=22 nonzero=0 fps~7.5
+[23:51:33] [alive] step=23 nonzero=0 fps~7.6
+[23:51:33] [alive] step=24 nonzero=0 fps~7.6
+[23:51:33] [alive] step=25 nonzero=1 fps~7.7
+[23:51:33] [alive] step=26 nonzero=1 fps~7.8
+[23:51:34] [alive] step=27 nonzero=0 fps~7.8
+[23:51:34] [alive] step=28 nonzero=0 fps~7.9
+[23:51:34] [alive] step=29 nonzero=0 fps~7.9
+[23:51:34] ⚠️ nonzero 太小（0），已保存 debug/bad_roi_step30.png
+[23:51:34] [alive] step=30 nonzero=0 fps~7.9
+[23:51:35] ⚠️ nonzero 太小（0），已保存 debug/bad_roi_step40.png
+[23:51:35] ❌ 连续很多帧 nonzero 都太小，判定 ROI 选错（没截到主棋盘）。
+[23:51:35]    请删除 roi_exe.json 后重跑，并只框主棋盘(18x10格子)那一块。
+[23:51:35]    已保存 debug/bad_roi_final_step*.png 供你检查。

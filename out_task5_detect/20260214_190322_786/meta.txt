@@ -1,0 +1,3 @@
+frames=(5000, 18, 14)
+actions=5000
+alignment=actions==frames
